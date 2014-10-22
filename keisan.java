@@ -11,12 +11,18 @@ class keisan {
     	// ˆ—Fˆø‚«Z
     	int sub = in0-in1;
     	// ˆ—FŠ|‚¯Z
+		int sub = ino*in1;
     	// ˆ—FŠ„‚èZ
+		int sub = ino/in1;
     	// ˆ—F—]‚è
+		int sub = in0%in1;
     	
     	// ŒvZŒ‹‰Ê‚ğo—Í
-    	System.out.println("‘«‚µZF"+add);
-    	System.out.println("ˆø‚«ZF"+sub);
+    	System.out.println("tasizann"+add);
+    	System.out.println("hikizann"+sub);
+		System.out.println("kakezann"+a);
+		System.out.println("warizann"+b);
+		System.out.println("amari"+c);
 	}
 }
 
