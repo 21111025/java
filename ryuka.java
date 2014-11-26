@@ -1,13 +1,15 @@
-//検索ワード：java 計算　最大
+import java.math.*;
 
 
  class ryuka {
         
     public static void main(String[] args){
-        double ryuka = 0;
-		double[] hai = new double[101];
 		
-		hai[0] = 2;
+		BigInteger ryuka = new BigInteger("0");
+		BigInteger [] hai = new BigInteger[101];
+		
+		hai[0] = new BigInteger
+		hai[1] = ("1")
 		
 		hai[1] = 1;
 		
