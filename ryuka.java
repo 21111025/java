@@ -10,6 +10,7 @@ import java.math.*;
 		
 		hai[0] = new BigInteger("2");
 		hai[1] = new BigInteger("1");
+		ryuka = ryuka.add(hai[1]);
 		
 		
 		for (int i=2;i<=100;i++){
