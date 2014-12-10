@@ -1,13 +1,20 @@
 import java.util.Ramdom;
-
+import java.io.*;
 
  class file {
         
     public static void main(String args[])
 	{
+	
+	    //0~100までの乱数を100個コンマ区切りで
+		//ファイル出力する
+		
+		//0~100までの乱数をint型の変数aに求めて
+		//出力
 		Ramdom b = new Ramdom();
 		int a =b.nextInt(101);
 		System.out.print(a);
+		//変数aをtensu.txtにファイル出力する
 		
 		try
 		{
